@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>CMi SDK v4  Reference</title>
+    <title>Glossary  Reference</title>
     <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,7 +10,7 @@
     
   </head>
   <body>
-    <a title="CMi SDK v4  Reference"></a>
+    <a title="Glossary  Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="index.html"> Docs</a> (23% documented)</p>
@@ -20,7 +20,7 @@
       <p id="breadcrumbs">
         <a href="index.html"> Reference</a>
         <img id="carat" src="img/carat.png" />
-        CMi SDK v4  Reference
+        Glossary  Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -116,38 +116,24 @@
         <section>
           <section class="section">
             
-            <h1 id='cmi-sdk-v4' class='heading'>CMi SDK v4</h1>
+            <h2 id='glossary' class='heading'>Glossary</h2>
 
-<p>Fourth generation of CASE Mobile integration SDK with revised inter-app communication based on app links and universal links.</p>
-<h2 id='general-description' class='heading'>General description</h2>
-
-<p>CMi SDK consist of 3 components:</p>
+<p>Description of term and abbreviations used in documentation (ordered alphabetically):</p>
 
 <ul>
-<li>CMi Core - core module - contains common classes, constants used by other modules</li>
-<li>CMi TP - third party module - used by TPA to create requests and processing responses for supported scenarios</li>
-<li>CMi CM - case mobile module - used by Case Mobile application to process requests from TPA, communicate with MEP and return responses to TPA</li>
+<li>A/U link: app link (for Android) / universal link (for iOS)</li>
+<li>CASE: Authentication system, supporting various methods of - authentication &amp; authorization.</li>
+<li>CASE mobile: CASE is supporting authentication of user &amp; authorization of transactions using smartphone. Term &lsquo;CASE mobile&rsquo; is used to refer mobile application that is able to communicate with CASE.</li>
+<li>CMi: CASE mobile integration.</li>
+<li>CMi Core: CMi SDK module with common functionality</li>
+<li>CMi TP: CMi SDK module for TPA</li>
+<li>CMi CM: CMi SDK module for CM</li>
+<li>CM (application): CASE mobile</li>
+<li>MEP: Multichannel entry point</li>
+<li>OS: Operating system (Android, iOS, Windows Phone)</li>
+<li>SDK: software development kit, library</li>
+<li>TPA: Third party application, that is using CMi TP SDK for - communication with CASE mobile</li>
 </ul>
-
-<p>A/U links are feature of recent versions of Android and iOS. They are enhancing for UX flows, where user is required to switch context from one application to another.</p>
-
-<p>For detailed description, refer to official documentation:</p>
-
-<ul>
-<li><a href="https://developer.android.com/training/app-links/index.html">Android tutorial</a></li>
-<li><a href="https://developer.apple.com/library/content/documentation/General/Conceptual/AppSearch/UniversalLinks.html">iOS docs</a></li>
-</ul>
-
-<p>A/U links have slightly different behavior on iOS and Android. On iOS, request made by opening URL (that applications in listening to) causes OS to pass control to application by calling method in AppDelegate. Android can declare in manifest, which application component should be invoked by opening particular URL.</p>
-
-<p>CMi SDK provides API for processing URL requests, but it does not restrict nor force (Android) application to use particular component to receive URL requests from OS.</p>
-
-<p>However, CMi SDK will use URLs with particular form and applications should use it in configuration of A/U links.</p>
-
-<p>To setup A/U links properly, refer to official documentation (links above).</p>
-<h2 id='general-architecture' class='heading'>General architecture</h2>
-
-<p><img src="img/components.png" alt="alt text" title="Components"></p>
 
           </section>
         </section>

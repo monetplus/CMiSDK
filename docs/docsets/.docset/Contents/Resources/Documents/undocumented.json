@@ -1,0 +1,523 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiConstants.swift",
+      "line": 8,
+      "symbol": "CMiConstants",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiConstants.swift",
+      "line": 10,
+      "symbol": "CMiConstants.schemeHttps",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiConstants.swift",
+      "line": 11,
+      "symbol": "CMiConstants.schemeHttp",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiConstants.swift",
+      "line": 13,
+      "symbol": "CMiConstants.flowIdHeaderKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiConstants.swift",
+      "line": 15,
+      "symbol": "CMiConstants.redirectUriKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiConstants.swift",
+      "line": 16,
+      "symbol": "CMiConstants.stateKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiConstants.swift",
+      "line": 18,
+      "symbol": "CMiConstants.resultKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiConstants.swift",
+      "line": 19,
+      "symbol": "CMiConstants.messageKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiConstants.swift",
+      "line": 21,
+      "symbol": "CMiConstants.mepIdKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 10,
+      "symbol": "CMiResult.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 12,
+      "symbol": "CMiResult.invalidRequest",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 13,
+      "symbol": "CMiResult.unauthorizedClient",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 14,
+      "symbol": "CMiResult.accessDenied",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 15,
+      "symbol": "CMiResult.unsupportedResponseType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 16,
+      "symbol": "CMiResult.invalidScope",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 17,
+      "symbol": "CMiResult.temporarilyUnavailable",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 19,
+      "symbol": "CMiResult.serverError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 21,
+      "symbol": "CMiResult.rejectedByUser",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 22,
+      "symbol": "CMiResult.canceledByUser",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 23,
+      "symbol": "CMiResult.blocked",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 24,
+      "symbol": "CMiResult.deactivated",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 25,
+      "symbol": "CMiResult.generalError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 52,
+      "symbol": "Type",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 53,
+      "symbol": "Type.oAuth",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 54,
+      "symbol": "Type.caseMobile",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/CMiResult.swift",
+      "line": 55,
+      "symbol": "Type.server",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/EncodingError.swift",
+      "line": 10,
+      "symbol": "EncodingError",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/EncodingError.swift",
+      "line": 11,
+      "symbol": "EncodingError.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/EncodingError.swift",
+      "line": 13,
+      "symbol": "EncodingError.init(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/InvalidArgumentError.swift",
+      "line": 6,
+      "symbol": "InvalidArgumentError",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/InvalidArgumentError.swift",
+      "line": 8,
+      "symbol": "InvalidArgumentError.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/InvalidArgumentError.swift",
+      "line": 10,
+      "symbol": "InvalidArgumentError.init(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/InvalidUriError.swift",
+      "line": 8,
+      "symbol": "InvalidUriError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/InvalidUriError.swift",
+      "line": 9,
+      "symbol": "InvalidUriError.invalidScheme",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/InvalidUriError.swift",
+      "line": 10,
+      "symbol": "InvalidUriError.invalidHost",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/InvalidUriError.swift",
+      "line": 11,
+      "symbol": "InvalidUriError.invalidPath",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/InvalidUriError.swift",
+      "line": 12,
+      "symbol": "InvalidUriError.invalidVersion",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Error/InvalidUriError.swift",
+      "line": 13,
+      "symbol": "InvalidUriError.invalidPattern",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 8,
+      "symbol": "CMiUrl",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 10,
+      "symbol": "CMiUrl.version",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 11,
+      "symbol": "CMiUrl.host",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 12,
+      "symbol": "CMiUrl.scenarioPathComponents",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 13,
+      "symbol": "CMiUrl.scenarioPath",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 16,
+      "symbol": "CMiUrl.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 18,
+      "symbol": "CMiUrl.init(version:host:scenarioPath:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 25,
+      "symbol": "CMiUrl.Version",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 26,
+      "symbol": "CMiUrl.Version.version1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 27,
+      "symbol": "CMiUrl.Version.version2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 28,
+      "symbol": "CMiUrl.Version.version3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrl.swift",
+      "line": 29,
+      "symbol": "CMiUrl.Version.version4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrlDataParser.swift",
+      "line": 8,
+      "symbol": "CMiUrlDataParser",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrlDataParser.swift",
+      "line": 13,
+      "symbol": "CMiUrlDataParser.parseData(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrlDataParser.swift",
+      "line": 54,
+      "symbol": "CMiUrlDataParser.serializeData(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrlParser.swift",
+      "line": 6,
+      "symbol": "CMiUrlParser",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrlParser.swift",
+      "line": 11,
+      "symbol": "CMiUrlParser.init(validation:dataParser:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrlParser.swift",
+      "line": 16,
+      "symbol": "CMiUrlParser.validate(url:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrlParser.swift",
+      "line": 24,
+      "symbol": "CMiUrlParser.parse(url:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrlParser.swift",
+      "line": 65,
+      "symbol": "CMiUrlParser.toUrl(url:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrlValidation.swift",
+      "line": 8,
+      "symbol": "CMiUrlValidation",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiCore/Url/CMiUrlValidation.swift",
+      "line": 17,
+      "symbol": "CMiUrlValidation.init(urlRegexPattern:versionIndexInPath:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Params/CMiBaseLoginParams.swift",
+      "line": 38,
+      "symbol": "CMiBaseLoginParams.toUrlDataDictionary()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Params/CMiBaseParams.swift",
+      "line": 8,
+      "symbol": "CMiBaseParams",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Params/CMiBaseParams.swift",
+      "line": 12,
+      "symbol": "CMiBaseParams.init(state:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Params/CMiBaseParams.swift",
+      "line": 16,
+      "symbol": "CMiBaseParams.toUrlDataDictionary()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Params/CMiOpenIdConnectParams.swift",
+      "line": 34,
+      "symbol": "CMiOpenIdConnectParams.toUrlDataDictionary()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Params/CMiTransactionParams.swift",
+      "line": 14,
+      "symbol": "CMiTransactionParams.mepId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Params/CMiTransactionParams.swift",
+      "line": 30,
+      "symbol": "CMiTransactionParams.toUrlDataDictionary()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Result/CMiBaseResult.swift",
+      "line": 18,
+      "symbol": "CMiBaseResult.flowIdHeader",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Result/CMiLoginResult.swift",
+      "line": 20,
+      "symbol": "CMiLoginResult.accessToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Result/CMiLoginResult.swift",
+      "line": 21,
+      "symbol": "CMiLoginResult.tokenType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Result/CMiLoginResult.swift",
+      "line": 22,
+      "symbol": "CMiLoginResult.expiresIn",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Result/CMiLoginResult.swift",
+      "line": 23,
+      "symbol": "CMiLoginResult.code",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Result/CMiLoginResult.swift",
+      "line": 24,
+      "symbol": "CMiLoginResult.idToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK/CMiTP/Result/CMiTransactionResult.swift",
+      "line": 13,
+      "symbol": "CMiTransactionResult.mepId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/mariancecunda/Ahead/Repositories/iOS/case_mobile_sdk_product/CMiSDK"
+}
