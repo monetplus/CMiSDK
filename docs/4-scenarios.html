@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Glossary  Reference</title>
+    <title>4. Scenarios  Reference</title>
     <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,7 +10,7 @@
     
   </head>
   <body>
-    <a title="Glossary  Reference"></a>
+    <a title="4. Scenarios  Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="index.html"> Docs</a> (23% documented)</p>
@@ -20,7 +20,7 @@
       <p id="breadcrumbs">
         <a href="index.html"> Reference</a>
         <img id="carat" src="img/carat.png" />
-        Glossary  Reference
+        4. Scenarios  Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -30,19 +30,19 @@
             <a href="Guides.html">Guides</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="architecture.html">Architecture</a>
+                <a href="1-cmi-sdk.html">1. CMi SDK</a>
               </li>
               <li class="nav-group-task">
-                <a href="cmi-sdk.html">CMi SDK</a>
+                <a href="2-glossary.html">2. Glossary</a>
               </li>
               <li class="nav-group-task">
-                <a href="cmi-tp-high-level-usage.html">CMi TP High level usage</a>
+                <a href="3-architecture.html">3. Architecture</a>
               </li>
               <li class="nav-group-task">
-                <a href="glossary.html">Glossary</a>
+                <a href="4-scenarios.html">4. Scenarios</a>
               </li>
               <li class="nav-group-task">
-                <a href="scenarios.html">Scenarios</a>
+                <a href="5-cmi-tp-high-level-usage.html">5. CMi TP High level usage</a>
               </li>
             </ul>
           </li>
@@ -122,24 +122,32 @@
         <section>
           <section class="section">
             
-            <h2 id='glossary' class='heading'>Glossary</h2>
+            <h1 id='scenarios' class='heading'>Scenarios</h1>
 
-<p>Description of term and abbreviations used in documentation (ordered alphabetically):</p>
+<p>CMi SDK v4 supports 2 main scenarios:</p>
 
 <ul>
-<li>A/U link: app link (for Android) / universal link (for iOS)</li>
-<li>CASE mobile: CASE is supporting authentication of user &amp; authorization of transactions using smartphone. Term &lsquo;CASE mobile&rsquo; is used to refer mobile application that is able to communicate with CASE.</li>
-<li>CASE: Authentication system, supporting various methods of - authentication &amp; authorization.</li>
-<li>CM (application): CASE mobile</li>
-<li>CMi CM: CMi SDK module for CM</li>
-<li>CMi Core: CMi SDK module with common functionality</li>
-<li>CMi TP: CMi SDK module for TPA</li>
-<li>CMi: CASE mobile integration.</li>
-<li>MEP: Multichannel entry point</li>
-<li>OS: Operating system (Android, iOS, Windows Phone)</li>
-<li>SDK: software development kit, library</li>
-<li>TPA: Third party application, that is using CMi TP SDK for - communication with CASE mobile</li>
+<li>user authentication using CASE mobile</li>
+<li>transaction authorization using CASE mobile</li>
 </ul>
+<h2 id='user-authentication-using-case-mobile' class='heading'>User authentication using CASE mobile</h2>
+
+<p>It&rsquo;s very common, that applications require some form of logging in, before user can use main functionality. CMi applications could rely on CASE identity of user. Instead of forcing him to enter his credentials, application can redirect him to CASE mobile application to confirm his new login operation. User is used to CASE mobile environment, so confirming login operation should not be problem for him.</p>
+
+<p>CASE mobile will handle whole login process. If user approves login operation, CASE mobile will get access token (or authentication code) from MEP and pass it back to TPA. User can also reject login operation. It that case, CASE mobile will return error code to TPA.</p>
+
+<p>After TPA got token (or code) from MEP, it can access resources that require authentication.
+<img src="img/cmi_authentication_seq.png" alt="alt text" title="Authentication scenario"></p>
+<h2 id='authorize-transaction-using-case-mobile' class='heading'>Authorize transaction using CASE mobile</h2>
+
+<p>Some of operations initialized from TPA may require additional authorization from user. Backend service of TPA should initialize operation in MEP system and send ID (called mepId) of such operation back to TPA.</p>
+
+<p>With mepId, TPA can redirect user to CASE mobile application (using method of CMi TP). CASE mobile will visualize what application requested what operation with some others information useful for user to decide if he wants to authorize shown request.</p>
+
+<p>After user authorizes or rejects operation in CASE mobile, TPA will receive response with result code. It should check if operation was approved or rejected with its backend server using same mepId.</p>
+
+<p>Usage of A/U links also made possible that TPA&rsquo;s backend can also return whole URL, that will be used by TPA to open CASE mobile directly (without using CMi TP component). 
+<img src="img/cmi_authorization_seq.png" alt="alt text" title="Authentication scenario"></p>
 
           </section>
         </section>
